@@ -1,0 +1,18 @@
+.header {
+	background-color: #5b6dc5;
+}
+.headerWrapper {
+}
+.headerList {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	width: 50%;
+	margin-left: auto;
+	padding: 5px 0px;
+}
+
+.headerItem {
+	padding: 5px 10px;
+	color: white;
+}

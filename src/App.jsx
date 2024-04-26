@@ -1,4 +1,4 @@
-import { Header } from './header/Header';
+import { Header } from './modules/header/Header';
 
 function App() {
 	return (
