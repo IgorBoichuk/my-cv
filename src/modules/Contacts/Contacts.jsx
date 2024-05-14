@@ -4,7 +4,7 @@ import { SectionTitle } from '../../components/Title/Sectiontitle';
 export const Contacts = () => {
 	return (
 		<div>
-			<SectionTitle title='Contacts' color='black'></SectionTitle>
+			<SectionTitle title='Contacts'></SectionTitle>
 		</div>
 	);
 };
