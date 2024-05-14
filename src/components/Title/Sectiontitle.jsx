@@ -4,7 +4,9 @@ import style from './Sectiontitle.module.scss';
 export const SectionTitle = ({ title, color }) => {
 	return (
 		<div>
-			<h2 style={{ color: `${color}` }}>{title}</h2>
+			<h2 style={{ color: `${color}` }} className={style.title}>
+				{title}
+			</h2>
 		</div>
 	);
 };

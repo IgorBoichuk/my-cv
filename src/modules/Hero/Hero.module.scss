@@ -1,4 +1,29 @@
 .backgroud {
 	background-image: url(../../components/Galery/background.jpg);
-	padding: 200px;
+	padding: 100px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+.photo {
+	display: block;
+	// border-radius: 20px;
+	width: 300px;
+	-webkit-box-shadow: -5px 5px 6px 1px rgba(128, 124, 128, 1);
+	-moz-box-shadow: -5px 5px 6px 1px rgba(128, 124, 128, 1);
+	box-shadow: -5px 5px 6px 1px rgba(128, 124, 128, 1);
+}
+
+.titleWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 0px;
+}
+
+.description {
+	color: white;
+	font-size: 25px;
+	text-align: end;
 }
